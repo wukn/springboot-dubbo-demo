@@ -1,0 +1,1 @@
+traceFilter=io.github.wukn.demo.dubbo.filter.TraceFilter
