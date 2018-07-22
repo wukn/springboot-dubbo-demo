@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: dubbo-consumer-service
+dubbo:
+  scan:
+    basePackages: io.github.wukn.demo.dubbo.service
+  application:
+    id: dubbo-consumer-service
+    name: dubbo-consumer-service
+  registry:
+    id: zookeeper
+    address: zookeeper://localhost:2181
+#  protocol:
+#    id: dubbo
+#    name: dubbo
+#    port: 8082
+#  monitor:
+#    address: zookeeper://localhost:2181
+    
